@@ -1,0 +1,94 @@
+.view {
+    display: flex;
+}
+
+.item__button_remove {
+    margin-left: 5px;
+}
+
+.animals {
+    display: flex;
+    flex-direction: column;
+}
+
+.animals__item {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.view-stub {
+    width: 50%;
+}
+
+.view-stub__input-block {
+    margin-bottom: 10px;
+    display: flex;
+    height: 40px;
+}
+
+.view-stub__input {
+    padding: 2px 3px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.view-stub__apply {
+    padding: 3px 15px;
+    background-color: #ffdb4d;
+    font-size: 13px;
+    box-shadow: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.view-stub__label {
+    width: 483px;
+    background-color: #ddd;
+    color: black;
+    padding: 10px 5px;
+    line-height: 28px;
+}
+
+.view__log {
+    position: relative;
+    max-width: 400px;
+    border: 1px solid darkslategrey;
+    height: 400px;
+    padding: 10px;
+    width: 698px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: monospace;
+}
+
+.log__clear {
+    position: absolute;
+    right: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.log__text {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.log__store {
+    margin: 0;
+    background-color: #ffdc4d;
+    width: fit-content;
+}
+
+.container {
+    width: 1040px;
+    margin: auto;
+    position: relative;
+}
